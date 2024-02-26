@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Document</title>
+    <style>
+      body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./Assets/vecteezy_abstract-blue-fluid-wave-background_17798503.jpg);
+        display: grid;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        place-items: center;
+        font-family: "Kdam Thmor Pro", sans-serif;
+        color: #fafafa;
+      }
+    </style>
   </head>
   <body>
-    <h1>Mi TODO list</h1>
+    <h1>Task manager</h1>
+    <main>
+      <div class="section">
+        <input type="text" id="taskInput" class="bars" placeholder="Escribe una nueva tarea...">
+        <button id="addTaskBtn" class="modify">Agregar tarea</button>
+        <input type="text" id="searchByKeyWord" class="bars" placeholder="Busqueda por palabras clave, ingresa al menos una palabra de la tarea que buscas.">
+        <div class="view">
+          <h2>Lista de tareas</h2>
+          <ul id="taskList"></ul>
+        </div>
+      </div>
+    </main>
     <script src="scripts/script.js"></script>
   </body>
 </html>

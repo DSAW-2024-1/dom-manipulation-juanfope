@@ -1,5 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    background: rgb(175, 190, 219, 0.75);
+    width: 65%;
+    min-height: 600px;
+    border-radius: 30px;
+} 
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin: left 10px;;
+    border: 1px;
+    border-radius: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5c2ed1;
+    color: #fff;
+    border: 1px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.section{
+    margin: 20px;
+}
+.view{
+    font-family: Outfit;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
